@@ -27,10 +27,7 @@ class Chronometer {
 
   getSeconds() {
     // ... your code goes here
-   /* if (this.intervalId === null) {
-      return 0
-
-    }*/
+  
   
     return this.currentTime % 60;
     
